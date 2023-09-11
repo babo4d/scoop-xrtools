@@ -1,0 +1,26 @@
+{
+    "version": "1.5.6.6",
+    "description": "Speech to Text to Speech",
+    "homepage": "https://ttsvoicewizard.com/",
+    "license": "MIT",
+    "suggest": {
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
+        "VB-Cable": "babo4d/xrtools/vb-cable"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v$version/TTSVoiceWizard-v$version-x64.zip",
+            "hash": "90c906fdf50921a830263e7013416e9af2e2cac01996273ebd7175685cb72a52"
+        }
+    },
+    "bin": "TTSVoiceWizard.exe",
+    "shortcuts": [
+        [
+            "TTSVoiceWizard.exe",
+            "TTS Voice Wizard"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/VRCWizard/TTS-Voice-Wizard"
+    }
+}
