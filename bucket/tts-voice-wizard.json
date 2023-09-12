@@ -19,6 +19,10 @@
             "TTS Voice Wizard"
         ]
     ],
+    "persist": [
+        "Assets",
+        "Output"
+    ],
     "checkver": {
         "github": "https://github.com/VRCWizard/TTS-Voice-Wizard"
     },
