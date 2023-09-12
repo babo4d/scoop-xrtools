@@ -9,7 +9,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v$version/TTSVoiceWizard-v$version-x64.zip",
+            "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v1.5.6.6/TTSVoiceWizard-v1.5.6.6-x64.zip",
             "hash": "90c906fdf50921a830263e7013416e9af2e2cac01996273ebd7175685cb72a52"
         }
     },
@@ -22,5 +22,12 @@
     ],
     "checkver": {
         "github": "https://github.com/VRCWizard/TTS-Voice-Wizard"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v$version/TTSVoiceWizard-v$version-x64.zip"
+            }
+        }
     }
 }
