@@ -5,7 +5,7 @@
     "license": "MIT",
     "suggest": {
         ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
-        "VB-Cable": "babo4d/xrtools/vb-cable"
+        "VB-Cable": "vb-cable"
     },
     "architecture": {
         "64bit": {
