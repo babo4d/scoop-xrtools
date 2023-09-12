@@ -3,6 +3,12 @@
     "description": "Speech to Text to Speech",
     "homepage": "https://ttsvoicewizard.com/",
     "license": "MIT",
+    "notes": [
+        "Some features require a virtual audio cable like VB-CABLE <https://vb-audio.com/Cable/>",
+        "Requires .NET Desktop Runtime 6.0. To install run:",
+        "  scoop install sudo",
+        "  sudo scoop install extras/windowsdesktop-runtime-lts --global"
+    ],
     "suggest": {
         ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts",
         "VB-Cable": "vb-cable"
