@@ -1,5 +1,5 @@
 {
-    "version": "1.5.6.6",
+    "version": "1.5.6.7",
     "description": "Speech to Text to Speech",
     "homepage": "https://ttsvoicewizard.com/",
     "license": "MIT",
@@ -15,8 +15,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v1.5.6.6/TTSVoiceWizard-v1.5.6.6-x64.zip",
-            "hash": "90c906fdf50921a830263e7013416e9af2e2cac01996273ebd7175685cb72a52"
+            "url": "https://github.com/VRCWizard/TTS-Voice-Wizard/releases/download/v1.5.6.7/TTSVoiceWizard-v1.5.6.7-x64.zip",
+            "hash": "ab256c553b56f1e9a110145c74e8c0c9aa279da00f76e9757bc2c5d3e77b53f0"
         }
     },
     "shortcuts": [
