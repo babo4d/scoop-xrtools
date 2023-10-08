@@ -9,6 +9,6 @@ Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
 To install `<manifestname>` run the following:
 
 ```pwsh
-scoop bucket add xrtools https://github.com/babo4d/scoop-xrtools
-scoop install xrtools/<manifestname>
+scoop bucket add xrtools "https://github.com/babo4d/scoop-xrtools"
+scoop install <manifestname>
 ```
