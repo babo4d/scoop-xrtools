@@ -22,6 +22,7 @@ vrcx
 tts-voice-wizard
 blender-launcher
 vrc-get
+nodejs
 ```
 
 ### winget
@@ -36,6 +37,12 @@ Microsoft.DotNet.SDK.6
 
 ```
 vrchat.vpm.cli
+```
+
+### npm
+
+```
+openupm-cli
 ```
 
 ### VRChat Community Packages (VPM)
