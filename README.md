@@ -21,6 +21,7 @@ scoop install <manifestname>
 vrcx
 tts-voice-wizard
 blender-launcher
+vrc-get
 ```
 
 ### winget
@@ -29,6 +30,12 @@ blender-launcher
 Unity.UnityHub
 VRChat.CreatorCompanion
 Microsoft.DotNet.SDK.6
+```
+
+### dotnet
+
+```
+vrchat.vpm.cli
 ```
 
 ### VRChat Community Packages (VPM)
