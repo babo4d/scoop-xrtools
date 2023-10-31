@@ -3,6 +3,9 @@
     "description": "OSC companion app for VRChat",
     "homepage": "https://github.com/BoiHanny/vrcosc-magicchatbox",
     "license": "https://github.com/BoiHanny/vrcosc-magicchatbox/blob/master/LICENSE",
+    "suggest": {
+        ".NET Desktop Runtime": "extras/windowsdesktop-runtime-lts"
+    },
     "architecture": {
         "64bit": {
             "url": "https://github.com/BoiHanny/vrcosc-magicchatbox/releases/download/v0.8.321/v0.8.321.zip",
