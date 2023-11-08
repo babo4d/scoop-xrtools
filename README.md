@@ -1,27 +1,32 @@
 # Scoop Bucket
 
-[![Tests](https://github.com/babo4d/scoop-xrtools/actions/workflows/ci.yml/badge.svg)](https://github.com/babo4d/scoop-xrtools/actions/workflows/ci.yml) [![Excavator](https://github.com/babo4d/scoop-xrtools/actions/workflows/excavator.yml/badge.svg)](https://github.com/babo4d/scoop-xrtools/actions/workflows/excavator.yml)
+[![Tests](https://github.com/babo4d/xrtools/actions/workflows/ci.yml/badge.svg)](https://github.com/babo4d/xrtools/actions/workflows/ci.yml) [![Excavator](https://github.com/babo4d/xrtools/actions/workflows/excavator.yml/badge.svg)](https://github.com/babo4d/xrtools/actions/workflows/excavator.yml)
 
-Bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+Package repository for [Scoop](https://scoop.sh), the Windows command-line installer.
 
-## How do I install these manifests?
+## How do I install these packages?
 
-To install `<manifestname>` run the following:
+First install scoop if not done already.
+
+To install `<app>`from the [available packages](bucket), run the following:
 
 ```pwsh
-scoop bucket add xrtools "https://github.com/babo4d/scoop-xrtools"
-scoop install <manifestname>
+scoop bucket add xrtools "https://github.com/babo4d/xrtools"
+scoop install <app>
 ```
 
 ## Package Recommendations
+
+For VRChat creators and power users.
 
 ### scoop
 
 ```
 vrcx
 tts-voice-wizard
-blender-launcher
+magicchatbox
 vrc-get
+blender-launcher
 nodejs
 ```
 
@@ -62,6 +67,6 @@ openupm-cli
 
 - [Unity Icons for Avatars3.0](https://65536.booth.pm/items/2567604)
 
-### Blender Add-ons
+### Blender Plugins
 
 - https://github.com/michaeldegroot/cats-blender-plugin/archive/development.zip
