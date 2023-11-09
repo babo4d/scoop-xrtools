@@ -84,3 +84,13 @@ openupm-cli
     - Editor Extensions ([vpm/json](https://vpm.varneon.com/editor-extensions))
     - VUdon ([github](https://github.com/Varneon/VUdon)) ([vpm/json](https://vpm.varneon.com/vudon))
     - VUdon (experimental) ([vpm/json](https://vpm.varneon.com/vudon-experimental))
+
+### Homebrew (macOS & Linux)
+
+Install from the homebrew tap/repository [`babo4d/xrtools`](https://github.com/babo4d/homebrew-xrtools).
+
+```
+vrc-get
+tiny-vcc
+vccmac
+```
