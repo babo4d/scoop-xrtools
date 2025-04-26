@@ -1,17 +1,17 @@
 {
-    "version": "20250330",
+    "version": "20250330-v4",
     "description": "OpenRA TD with remastered assets",
     "homepage": "https://github.com/OpenRA/TiberianDawnHD",
     "license": "GPL-3.0-or-later",
     "notes": "Requires separate installation of C&C Remastered Collection",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330/TiberianDawnHD-release-20250330-x86-winportable.zip",
-            "hash": "a86f8aaf6d0cc1ff68940865d14e6f3296eaa984d07db7e208d1bd694324504c"
+            "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v4/TiberianDawnHD-release-20250330-x86-winportable.zip",
+            "hash": "905f5896ea98e2ba207ab26387ef562a24336c0eba7432abf09438d57ba1a260"
         },
         "64bit": {
-            "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330/TiberianDawnHD-release-20250330-x64-winportable.zip",
-            "hash": "71203ba6adcd17b43393002acf832bca998cb0f16ddfad27b8f403411a8a8cf6"
+            "url": "https://github.com/OpenRA/TiberianDawnHD/releases/download/release-20250330-v4/TiberianDawnHD-release-20250330-x64-winportable.zip",
+            "hash": "0280a0b9aa3da29870b29107686129bd68d5b7ee0676089d994b50bf698cfe9f"
         }
     },
     "shortcuts": [
