@@ -15,11 +15,14 @@
             "OpenVR Walk In Place"
         ]
     ],
-    "checkver": "github",
+    "checkver": {
+        "url": "https://github.com/pottedmeat7/OpenVR-WalkInPlace/releases",
+        "regex": "/releases/tag/(?<prefix>[\\D]*)(?<version>[\\d.]+[-\\w]*)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/pottedmeat7/OpenVR-WalkInPlace/releases/download/$version/OpenVR-WalkInPlace-Installer.exe#/dl.7z"
+                "url": "https://github.com/pottedmeat7/OpenVR-WalkInPlace/releases/download/$matchPrefix$version/OpenVR-WalkInPlace-Installer.exe#/dl.7z"
             }
         }
     }
