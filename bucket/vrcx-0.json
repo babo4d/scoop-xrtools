@@ -1,0 +1,30 @@
+{
+    "version": "2.30.0",
+    "description": "The fast, lightweight VRCX built with Tauri and Rust",
+    "homepage": "https://github.com/Map1en/VRCX-0",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Map1en/VRCX-0/releases/download/v2.30.0/VRCX-0_2.30.0_windows_x86_64_setup.exe#/dl.7z",
+            "hash": ""
+        }
+    },
+    "pre_install": [
+        "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "vrcx-0.exe",
+            "VRCX-0"
+        ]
+    ],
+    "checkver": "github"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Map1en/VRCX-0/releases/download/v$version/VRCX-0_$version_windows_x86_64_setup.exe#/dl.7z"
+            }
+        }
+    }
+}
